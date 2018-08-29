@@ -3,14 +3,14 @@ call plug#begin()
 "主题插件下载
 Plug 'tomasr/molokai'
 
-"文件管理器
+""文件管理器
 Plug 'scrooloose/nerdtree'
 
 "文件查找
 Plug 'kien/ctrlp.vim'
 
 "注释生成
-"Plug 'vim-scripts/DoxygenToolkit.vim'
+Plug 'vim-scripts/DoxygenToolkit.vim'
 
 "PHP代码提示
 Plug 'vim-scripts/AutoComplPop'
@@ -52,4 +52,7 @@ set encoding=utf-8
 set fileencoding=utf-8
 "显示行号
 set number
+"tab符号和空格符号显示
+set list
+set listchars=tab:>-,trail:-
 
