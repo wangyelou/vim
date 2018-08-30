@@ -47,6 +47,11 @@ au FileType php setlocal dict+=~/.vim/funcList/php_funclist
 "HTML,JS代码自动提示
 au FileType javascript,html setlocal dict+=~/.vim/funcList/javascript_funclist
 
+"缩进空格数
+set shiftwidth=4
+set sw=4
+"自动缩进
+set autoindent
 "编码设置
 set encoding=utf-8
 set fileencoding=utf-8
