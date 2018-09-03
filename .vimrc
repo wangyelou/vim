@@ -57,6 +57,8 @@ set encoding=utf-8
 set fileencoding=utf-8
 "显示行号
 set number
+"不自动折行
+set nowrap
 "tab符号和空格符号显示
 set list
 set listchars=tab:>-,trail:-
